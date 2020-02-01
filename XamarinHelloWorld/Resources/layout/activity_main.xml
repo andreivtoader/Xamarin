@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation = "vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TextView 
+      android:text = "@string/HelloXamarin" 
+      android:textAppearance = "?android:attr/textAppearanceLarge" 
+      android:layout_width = "match_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/textView2" />
+
+<Button 
+      android:id = "@+id/MyButton" 
+      android:layout_width = "fill_parent" 
+      android:layout_height = "wrap_content" 
+      android:text = "@string/ButtonClick" />
+
+<CheckBox 
+      android:text = "Checkbox is not checked" 
+      android:padding = "25dp" 
+      android:layout_width = "300dp" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/checkBox1" 
+      android:textColor = "@android:color/black" 
+      android:background = "@android:color/holo_blue_dark" />
+
+<RatingBar
+      android:layout_width = "wrap_content" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/ratingBar1" 
+      android:numStars = "5" 
+      android:stepSize = "1.0" />
+
+<ToggleButton
+      android:id = "@+id/togglebutton" 
+      android:layout_width = "wrap_content" 
+      android:layout_height = "wrap_content" 
+      android:textOn = "Torch ON" 
+      android:textOff = "Torch OFF" 
+      android:textColor = "@android:color/black" />
+
+<DatePicker 
+      android:layout_width = "match_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/datePicker1" />
+
+<TextView 
+      android:text = "Current Date" 
+      android:textAppearance = "?android:attr/textAppearanceLarge" 
+      android:layout_width = "match_parent" 
+      android:layout_height = "wrap_content" 
+      android:id = "@+id/txtShowDate" />
+
+<Button 
+    android:text = "Select Date" 
+    android:layout_width = "match_parent" 
+    android:layout_height = "wrap_content" 
+    android:id = "@+id/btnSetDate" />
+</LinearLayout>
